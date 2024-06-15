@@ -1,0 +1,102 @@
+body{
+    background-image:  linear-gradient(to right , white 10% 40%, transparent), url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    overflow-x: hidden;
+    
+}
+.container-custom{
+    padding-left: 30px;
+    height: 100vh;
+}
+.custom-icon{
+    display: flex;
+    gap: 20px;
+}
+h1 {
+    
+    font-size: 5.5rem;
+    line-height: 1;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    
+}
+h2{
+    /* color: rgba(255,255,255,0.7); */
+
+    font-size: small;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.Africa{
+    color: yellow;
+}
+h2{
+    font-size: 2rem;
+}
+.features{
+    
+    margin-top: auto;
+    background-color: white;
+    font-weight: 500;
+    font-size:16px;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.navbar{
+    justify-content: space-between;
+}
+.butt{
+   color: yellow;
+}
+
+.center{
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    display: block;
+    word-spacing: 5px;
+    font-weight: bold;
+}
+
+.user{
+    font-size: 20px;
+    float: right;
+    text-align: left;
+   
+}
+.navbar-text{
+    text-align: left;
+    margin-left: 300px;
+}
+.title-image{
+    position: absolute;
+}
+.women{
+    right: 20px;
+    top: 15%;
+
+}
+.men{
+    bottom: -5%;
+    right: -2px;
+}
+.elephant{
+    bottom: -5%;
+}
+.clay{
+    top: 15%;
+}
+.watchbtn{
+    border-color: red;
+    color: black
+}
