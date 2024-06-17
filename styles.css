@@ -10,7 +10,7 @@ body{
 }
 .container-custom{
     padding-left: 30px;
-    height: 100vh;
+    min-height: 100vh;
 }
 .custom-icon{
     display: flex;
@@ -78,9 +78,10 @@ h2{
     text-align: left;
     margin-left: 300px;
 }
-.title-image{
-    position: absolute;
+ .title-image{width: 100%;
+    object-fit: cover;
 }
+/*
 .women{
     right: 20px;
     top: 15%;
@@ -95,8 +96,26 @@ h2{
 }
 .clay{
     top: 15%;
-}
+} */
 .watchbtn{
     border-color: red;
     color: black
+}
+.imagecont{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 10px; 
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+@media(max-width: 1028px){
+    h1{
+        text-align: center;
+    }
+    /* .col-lg-6{
+        position: static;
+        transform: rotate(0);
+        width: 80%;
+    } */
 }
